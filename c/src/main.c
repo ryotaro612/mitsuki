@@ -1,8 +1,8 @@
-#include <gst/gst.h>
+ #include <gst/gst.h>
 #include <stdio.h>
 #include <wayland-client.h>
 //#include <gstgldisplay_wayland.h>
-//#include <gst/gl/wayland/wayland.h>
+ #include <gst/gl/wayland/wayland.h>
 //
 // main is where all program execution starts
 //
@@ -17,7 +17,7 @@ int main(int argc, char **argv) {
     exit(1);
   }
   printf("connected to display\n");
-  //GstGLDisplayWayland* a = gst_gl_display_wayland_new(display);
+  GstGLDisplayWayland* a = gst_gl_display_wayland_new(display);
 
   wl_display_disconnect(display);
   printf("disconnected from display\n");
