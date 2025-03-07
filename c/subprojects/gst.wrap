@@ -1,4 +1,0 @@
-[wrap-git]
-url = https://gitlab.freedesktop.org/gstreamer/gstreamer.git
-revision = 1.18.5
-directory = gst  # サンプル上のディレクトリ名
